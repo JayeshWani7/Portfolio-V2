@@ -268,7 +268,7 @@ const Main = () => {
                 },
               }}
             >
-              About.
+              About
             </motion.a>
             <motion.a
               href="/skills"
@@ -284,7 +284,7 @@ const Main = () => {
                 },
               }}
             >
-              Skills.
+              Skills
             </motion.a>
             <motion.a
               href="/work"
@@ -300,7 +300,7 @@ const Main = () => {
                 },
               }}
             >
-              Projects.
+              Projects
             </motion.a>
             <motion.a
               href="/coding_profile"
@@ -316,7 +316,7 @@ const Main = () => {
                 },
               }}
             >
-              Coding Profiles.
+              Coding Profiles
             </motion.a>
             <motion.a
               href="/achievement"
@@ -348,7 +348,7 @@ const Main = () => {
                 },
               }}
             > */}
-              Experience.
+              Experience
             </motion.a>
           </motion.div>
         )}
