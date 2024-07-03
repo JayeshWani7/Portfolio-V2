@@ -8,7 +8,7 @@ import SocialIcons from "../subComponents/SocialIcons";
 // import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitlte";
-import astronaut from "../assets/Images/logo192.jpg";
+import astronaut from "../assets/Images/mee.jpg";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
