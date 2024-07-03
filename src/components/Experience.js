@@ -129,7 +129,7 @@ const MySkillsPage = () => {
     <ThemeProvider theme={lightTheme}>
         <Contact
           target="_blank"
-          href="https://www.linkedin.com/in/kunal-shaw-/"
+          href="https://www.linkedin.com/in/jayesh-wani/"
         >
           <motion.h2
             initial={{
@@ -153,7 +153,7 @@ const MySkillsPage = () => {
         <ParticleComponent theme="light" />
         <Grid>
         <Main>
-          <Title>Teaching Assistant (CSFORALL) DEC 2023 - Present</Title>
+          <Title>Wed Development Intern Jan 2023 - Sep 2023</Title>
           <Description>
             • Served as an Online Teaching Assistant (TA) for multiple DSA and
             Competitive Programming batches, also reviewed their coursework.
@@ -162,7 +162,7 @@ const MySkillsPage = () => {
           </Description>
         </Main>
         <Main>
-          <Title>Teaching Assistant (Ask Senior) JAN 2024 - Present</Title>
+          <Title>Mobile Application Testing Intern Oct 2022 - Dec 2022</Title>
           <Description>
             • Created CP editorials on an "Ask Senior" platform to aid students
             with concise and clear explanations of competitive programming

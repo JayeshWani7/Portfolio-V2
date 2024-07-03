@@ -100,7 +100,7 @@ const BlogComponent = (props) => {
     <Container variants={Item}>
       <Contact
           target="_blank"
-          href="https://www.linkedin.com/in/kunal-shaw-/"
+          href="https://www.linkedin.com/in/Jayesh-wani/"
         >
           <motion.h2
             initial={{

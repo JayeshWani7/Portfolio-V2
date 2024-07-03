@@ -98,23 +98,23 @@ const CODING = styled(NavLink)`
     display: none;
   }
 `;
-const ACHIEVEMENT = styled(NavLink)`
-  color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
-  text-decoration: none;
-  position: fixed;
-  left: 62rem;
-  top: 2rem;
-  z-index: 3;
-  @media (max-width: 1300px) {
-    display: none;
-  }
-`;
+// const ACHIEVEMENT = styled(NavLink)`
+//   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
+//   text-decoration: none;
+//   position: fixed;
+//   left: 62rem;
+//   top: 2rem;
+//   z-index: 3;
+//   @media (max-width: 1300px) {
+//     display: none;
+//   }
+// `;
 
 const EXPERIENCE = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   text-decoration: none;
   position: fixed;
-  left: 73.5rem;
+  left: 62rem;
   top: 2rem;
   z-index: 1;
   @media (max-width: 1300px) {
@@ -172,9 +172,6 @@ const Center = styled.button`
   }
 `;
 
-const aa = styled.div`
-
-`
 
 const DarkDiv = styled.div`
   position: absolute;
@@ -318,7 +315,7 @@ const Main = () => {
             >
               Coding Profiles
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="/achievement"
               initial={{ y: 80, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -332,8 +329,8 @@ const Main = () => {
                 },
               }}
             >
-              {/* Achievement.
-            </motion.a>
+              Achievement.
+            </motion.a> */}
             <motion.a
               href="/experience"
               initial={{ y: 80, opacity: 0 }}
@@ -347,7 +344,7 @@ const Main = () => {
                   delay: 0.2,
                 },
               }}
-            > */}
+            >
               Experience
             </motion.a>
           </motion.div>
@@ -402,7 +399,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Experience.
+            Experience
           </motion.h2>
         </EXPERIENCE>
         <CODING to="/coding_profile">
@@ -418,8 +415,9 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Coding Profiles.
+            Coding Profiles
           </motion.h2>
+          
         </CODING>
         <WORK to="/work" click={+click}>
           <motion.h2
@@ -434,7 +432,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Projects.
+            Projects
           </motion.h2>
         </WORK>
         <BottomBar>
@@ -451,7 +449,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              About.
+              About
             </motion.h2>
           </ABOUT>
           <SKILLS to="/skills" click={+click}>
@@ -467,25 +465,12 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Skills.
+              Skills
             </motion.h2>
           </SKILLS>
-          <ACHIEVEMENT to="/achievement">
-            <motion.h2
-              initial={{
-                y: -150,
-                transition: { type: "spring", duration: 1.5, delay: 1 },
-              }}
-              animate={{
-                y: 0,
-                transition: { type: "spring", duration: 1.5, delay: 1 },
-              }}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              Achievement.
-            </motion.h2>
-          </ACHIEVEMENT>
+          {/* <ACHIEVEMENT to="/achievement">
+            
+          </ACHIEVEMENT> */}
         </BottomBar>
       </Container>
       {click ? <Intro click={click} /> : null}
