@@ -63,11 +63,11 @@ const SubBox = styled.div`
 
   .pic {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 48%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
     align-items: center;
     justify-content: center;
     border-radius: 10%;
@@ -87,11 +87,11 @@ const SubBox = styled.div`
     position: absolute;
     align-items: center;
     justify-content: center;
-    bottom: 2%;
+    bottom: 20%;
     left: 35%;
     @media (max-width: 50em) {
-        bottom:-1%;
-        left: 24%;
+        bottom:10%;
+        left: 22%;
     }
     .button-89 {
       --b: 3px; /* border thickness */
@@ -172,7 +172,7 @@ const Intro = () => {
         <Text>
           <h1>Hey,</h1>
           <h3>I'm Jayesh Wani</h3>
-          <h5>A Competitive Programmer and a MERN Stack Developer</h5>
+          <h5> A Full Stack Developer and a Competitive Programmer </h5>
         </Text>
       </SubBox>
       <SubBox>
@@ -186,7 +186,7 @@ const Intro = () => {
             src={Me}
             alt="Profile Pic"
             height={1}
-            width={0}
+            width={1}
           />
           <a
             className="resume"

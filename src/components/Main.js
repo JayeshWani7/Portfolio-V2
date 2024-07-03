@@ -332,7 +332,7 @@ const Main = () => {
                 },
               }}
             >
-              Achievement.
+              {/* Achievement.
             </motion.a>
             <motion.a
               href="/experience"
@@ -347,7 +347,7 @@ const Main = () => {
                   delay: 0.2,
                 },
               }}
-            >
+            > */}
               Experience.
             </motion.a>
           </motion.div>
@@ -372,7 +372,7 @@ const Main = () => {
 
         <Contact
           target="_blank"
-          href="https://www.linkedin.com/in/kunal-shaw-/"
+          href="https://www.linkedin.com/in/jayesh-wani/"
         >
           <motion.h2
             initial={{

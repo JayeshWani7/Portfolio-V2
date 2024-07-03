@@ -98,7 +98,7 @@ const WorkPage = () => {
     <ThemeProvider theme={DarkTheme}>
       <Contact
           target="_blank"
-          href="https://www.linkedin.com/in/kunal-shaw-/"
+          href="https://www.linkedin.com/in/jayesh-wani/"
         >
           <motion.h2
             initial={{
