@@ -141,17 +141,17 @@ const MySkillsPage = () => {
           <Title>
             <Develope width={40} height={40} /> Mern Stack Developer
           </Title>
-          <Description >A Full Stack Mern Developer !</Description>
+          <Description >A Full Stack Developer !</Description>
           <Description>
             <strong>Skills</strong>
             <p>
               Html, Css, Javascript, React, Tailwind, Bootstrap, Scss, Node js,
-              Express Js, Numpy, Pandas etc.
+              Express Js, PHP/MYSQL, Wordpress, etc
             </p>
           </Description>
           <Description>
             <strong>Tools</strong>
-            <p>VScode, Github, Mongo DB, Postman, Dev C++,  etc.</p>
+            <p>VScode, Github, Mongo DB, Android Studio, Eclipse, Postman, etc.</p>
           </Description>
         </Main>
 
