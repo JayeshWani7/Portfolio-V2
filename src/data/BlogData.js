@@ -15,13 +15,20 @@ export const Blogs = [
     },
     {
         id:3,
+        name:"GeeksforGeeeks",
+        tags:["Top 30 in college"],
+        imgSrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fflutter-card-widget%2F&psig=AOvVaw2tSxEgDmJ3CbED72a-vu6S&ust=1720369145291000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDsutDokocDFQAAAAAdAAAAABAE",
+        link:"https://www.geeksforgeeks.org/user/wanijayesh/"
+    },
+    {
+        id:4,
         name:"Codechef",
         tags:[],
         imgSrc:"https://images.yourstory.com/cs/images/companies/codechef-1592821643695.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
         link:"https://www.codechef.com/users/jayeshwani"
     },
     {
-        id:4,
+        id:5,
         name:"Atcoder",
         tags:[],
         imgSrc:"https://i.ytimg.com/vi/2kGhxVdSlTQ/mqdefault.jpg",

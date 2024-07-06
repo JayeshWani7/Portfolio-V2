@@ -43,7 +43,6 @@ const AnchorComponent = (props) => {
             let bodyHeight = document.body.offsetHeight;
             
             let diff = Math.max(bodyHeight - (scrollPosition + windowSize) )
-            //diff*100/scrollposition
             let diffP = (diff * 100) / (bodyHeight - windowSize);
 
             ref.current.style.transform = `translateY(${-diffP}%)`

@@ -3,9 +3,6 @@ import styled from 'styled-components'
 import { DarkTheme } from '../components/Themes'
 import { NavLink } from 'react-router-dom'
 
-
-
-
 const Logo = styled.h1`
 display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
