@@ -124,7 +124,7 @@ const Description = styled.div`
   }
 
   @media (max-width: 768px) {
-    font-size: calc(0.6em + 0.5vw);
+    font-size: calc(0.6em + 1vw);
     padding: 0.5rem;
 
     ul,
@@ -134,7 +134,7 @@ const Description = styled.div`
   }
 
   @media (max-width: 480px) {
-    font-size: calc(0.6em + 0.5vw);
+    font-size: calc(0.5em + 1vw);
     padding: 0.5rem;
 
     ul,
@@ -184,7 +184,7 @@ const MySkillsPage = () => {
             <Description>
               • Tested a mobile application across multiple devices, ensuring
               functionality and performance.
-              <br />• Reported 100+ bugs, reduced crash rates by 30%,
+              <br />• Reported 70+ bugs, reduced crash rates by 30%,
               implemented automated testing.
             </Description>
           </Main>
