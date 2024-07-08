@@ -58,13 +58,13 @@ const Main = styled.div`
   }
 `;
 const Grid = styled.div`
-display: grid;
-grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
-grid-gap: calc(1rem + 2vw);
-@media (max-width:50em){
-    grid-template-columns:100%;
-}
-`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
+  grid-gap: calc(1rem + 2vw);
+  @media (max-width: 50em) {
+    grid-template-columns: 100%;
+  }
+`;
 
 const Title = styled.h2`
   display: flex;
@@ -122,58 +122,74 @@ const Description = styled.div`
       text-align-last: start !important;
     }
   }
+
+  @media (max-width: 768px) {
+    font-size: calc(0.6em + 0.5vw);
+    padding: 0.5rem;
+
+    ul,
+    p {
+      margin-left: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    font-size: calc(0.6em + 0.2vw);
+    padding: 0.5rem;
+
+    ul,
+    p {
+      margin-left: 0.5rem;
+    }
+  }
 `;
+
 
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
-        <Contact
-          target="_blank"
-          href="https://www.linkedin.com/in/jayesh-wani/"
+      <Contact target="_blank" href="https://www.linkedin.com/in/jayesh-wani/">
+        <motion.h2
+          initial={{
+            y: -150,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 1 },
+          }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
         >
-          <motion.h2
-            initial={{
-              y: -150,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
-            }}
-            animate={{
-              y: 0,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
-            }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <FaLinkedinIn />
-          </motion.h2>
-        </Contact>
+          <FaLinkedinIn />
+        </motion.h2>
+      </Contact>
       <Box>
         <LogoComponent theme="light" />
         <SocialIcons theme="light" />
         {/* <PowerButton /> */}
         <ParticleComponent theme="light" />
         <Grid>
-        <Main>
-          <Title>Wed Development Intern Jan 2023 - Sep 2023</Title>
-          <Description>
-            • Served as an Online Teaching Assistant (TA) for multiple DSA and
-            Competitive Programming batches, also reviewed their coursework.
-            <br />• Collaborated with fellow Team members to improve various
-            Course Materials
-          </Description>
-        </Main>
-        <Main>
-          <Title>Mobile Application Testing Intern Oct 2022 - Dec 2022</Title>
-          <Description>
-            • Created CP editorials on an "Ask Senior" platform to aid students
-            with concise and clear explanations of competitive programming
-            problems.
-            <br />
-            • Addressed numerous DSA and CP-related queries, offering
-            solutions and clarifications to aid fellow students in their
-            learning journey.
-          </Description>
-        </Main>
+          <Main>
+            <Title>Web Development Intern Jan 2023 - Sep 2023</Title>
+            <Description>
+              • Developed and maintained 40+ websites using PHP,
+              MySQL, JavaScript, HTML, CSS, and Wordpress.
+              <br />• Boosted user engagement by 25% and customer satisfaction
+              by 15%.
+            </Description>
+          </Main>
+          <Main>
+            <Title>Mobile Application Testing Intern Oct 2022 - Dec 2022</Title>
+            <Description>
+              • Tested a mobile application across multiple devices, ensuring
+              functionality and performance.
+              <br />• Reported 100+ bugs, reduced crash rates by 30%,
+              implemented automated testing.
+            </Description>
+          </Main>
         </Grid>
+
         <BigTitle text="Experience" top="4%" right="-1%" />
       </Box>
     </ThemeProvider>
