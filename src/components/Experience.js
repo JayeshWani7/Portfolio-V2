@@ -134,7 +134,7 @@ const Description = styled.div`
   }
 
   @media (max-width: 480px) {
-    font-size: calc(0.6em + 0.2vw);
+    font-size: calc(0.6em + 0.5vw);
     padding: 0.5rem;
 
     ul,
