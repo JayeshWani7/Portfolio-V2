@@ -111,11 +111,10 @@ const AboutPage = () => {
         <Main>
           Hello, I'm Jayesh Wani, a passionate Competitive Programmer and Full Stack Developer. 
           <br /> <br />
-          With a track record of solving over 300+ problems across various coding platforms, I've honed my problem-solving skills. Additionally, I have hands-on experience developing numerous Frontend and Full Stack MERN projects.
-          <br /> <br />I think it's our Process and Consistency that what
-          matters and on that we should focus on result is just a by product of what you have followed.
+          With a proven track record of solving over 300 problems across various coding platforms, I have honed my problem-solving skills. I also have hands-on experience developing numerous Frontend and Full Stack Projects.
+          <br /> <br />I believe that dedication and a systematic approach are key to success; the results will naturally follow from our hard work.
           <br /> <br /> 
-          So let's Connect on Linkedin and Help each other to Grow.
+          Let's connect on LinkedIn and support each other's growth!
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
