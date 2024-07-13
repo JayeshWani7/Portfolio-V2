@@ -166,7 +166,7 @@ const MySkillsPage = () => {
           </Description>
           <Description>
             <strong>Skills</strong>
-            <p>C++ ,C ,Python ,Java etc.</p>
+            <p>C++, C,Python, Java, etc.</p>
           </Description>
           <Description>
             <strong>Tools</strong>
