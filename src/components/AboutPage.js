@@ -5,7 +5,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-// import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import astronaut from "../assets/Images/mee.jpg";
@@ -102,7 +101,6 @@ const AboutPage = () => {
       <Box>
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
-        {/* <PowerButton /> */}
         <ParticleComponent theme="dark" />
 
         <Spaceman>
