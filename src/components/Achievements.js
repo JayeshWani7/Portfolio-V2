@@ -5,8 +5,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-// import PowerButton from "../subComponents/PowerButton";
-
 import { Achieve } from "../data/AchiementData.js";
 import Carda from "../subComponents/Carda.js";
 import { YinYang } from "./AllSvgs";
@@ -118,8 +116,6 @@ const WorkPage = () => {
       <Box>
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
-        {/* <PowerButton /> */}
-
         <Main ref={ref} variants={container} initial="hidden" animate="show">
           {Achieve.map((d) => (
             <Carda key={d.id} data={d} />

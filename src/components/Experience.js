@@ -4,7 +4,6 @@ import { lightTheme } from "./Themes";
 import { Design, Develope } from "./AllSvgs";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-// import PowerButton from '../subComponents/PowerButton';
 import { FaLinkedinIn } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import ParticleComponent from "../subComponents/ParticleComponent";
@@ -167,7 +166,6 @@ const MySkillsPage = () => {
       <Box>
         <LogoComponent theme="light" />
         <SocialIcons theme="light" />
-        {/* <PowerButton /> */}
         <ParticleComponent theme="light" />
         <Grid>
           <Main>

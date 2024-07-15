@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
-// import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from "../subComponents/SocialIcons";
 import { YinYang } from "./AllSvgs";
 import { FaLinkedinIn } from "react-icons/fa";
