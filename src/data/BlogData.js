@@ -23,7 +23,7 @@ export const Blogs = [
     {
         id:4,
         name:"Codechef",
-        tags:["2 ★","1550 Max","Top 20k Globally"],
+        tags:["2 ★","1550 Max","Top 20k Globally", "Ranked 322 in Starters143"],
         imgSrc:"https://images.yourstory.com/cs/images/companies/codechef-1592821643695.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
         link:"https://www.codechef.com/users/jayeshwani"
     },
