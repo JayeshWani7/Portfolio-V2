@@ -9,7 +9,7 @@ export const Blogs = [
     {
         id:2,
         name:"Leetcode",
-        tags:["1645 Max","300+ Problems Solved","200+ Days Streak","Top 25% Globally"],
+        tags:["1645 Max","300+ Problems Solved","200+ Days Streak","Top 20% Globally"],
         imgSrc:"https://leetcode.com/static/images/LeetCode_Sharing.png",
         link:"https://leetcode.com/Jayesh101/"
     },
@@ -23,14 +23,14 @@ export const Blogs = [
     {
         id:4,
         name:"Codechef",
-        tags:["2★","1550 Max","Top 20k Globally", "Ranked 322 in Starters143"],
+        tags:["3★","1653 Max","Top 10k Countrywide", "Ranked 285 in Starters143"],
         imgSrc:"https://images.yourstory.com/cs/images/companies/codechef-1592821643695.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
         link:"https://www.codechef.com/users/jayeshwani"
     },
     {
         id:5,
         name:"Atcoder",
-        tags:["Brown", "166"],
+        tags:["Newbie", "166 max"],
         imgSrc:"https://i.ytimg.com/vi/2kGhxVdSlTQ/mqdefault.jpg",
         link:"https://atcoder.jp/users/Jayeshwani7"
     },
