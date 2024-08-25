@@ -66,20 +66,20 @@ const SubBox = styled.div`
     top: 15%;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     align-items: center;
     justify-content: center;
     border-radius: 10%;
     @media (max-width: 30em) {
-      width: 90%;
+      width: 80%;
     }
 
     @media (max-width: 40em) {
-      width: 80%;
+      width: 70%;
     }
     @media (max-width: 50em) {
-      width: 60%;
+      width: 55%;
     }
   }
 
@@ -87,10 +87,10 @@ const SubBox = styled.div`
     position: absolute;
     align-items: center;
     justify-content: center;
-    bottom: 20%;
-    left: 35%;
+    bottom: 10%;
+    left: 37%;
     @media (max-width: 50em) {
-        bottom:10%;
+        bottom:3%;
         left: 22%;
     }
     .button-89 {
