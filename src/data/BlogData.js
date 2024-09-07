@@ -25,7 +25,7 @@ export const Blogs = [
         name:"Codechef",
         tags:["1★","1381 Max","Top 50k Worldwide"],
         imgSrc:"https://images.yourstory.com/cs/images/companies/codechef-1592821643695.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
-        link:""
+        link:"https://www.codechef.com/users/wanijayesh02"
     },
     {
         id:5,
