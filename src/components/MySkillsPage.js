@@ -144,12 +144,12 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, Bootstrap, SCSS, Node.js, Express.js, PHP, MySQL, PostgreSQL, Supabase, Firebase, MongoDB, TypeScript, Redux, Zustand, Git & GitHub, Docker, REST APIs, JWT Auth, WebSockets, Prisma, TypeORM, NestJS, Vite, WordPress, Responsive Design, UI/UX Principles, Agile Development
+              React, Next.js, Tailwind CSS, Node.js, Express.js, PHP, MySQL, TypeScript, Redux, Zustand, REST APIs, WebSockets, Prisma, TypeORM, NestJS, Vite, Astro
             </p>
           </Description>
           <Description>
             <strong>Tools</strong>
-            <p>VScode, Github, Mongo DB, Android Studio, Eclipse, Postman, etc.</p>
+            <p>VScode, Github, Mongo DB, Docker, Android Studio, Eclipse, Postman, etc.</p>
           </Description>
         </Main>
 
