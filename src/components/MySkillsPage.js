@@ -144,8 +144,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, Css, Javascript, React, Tailwind, Bootstrap, Scss, Node js,
-              Express Js, PHP/MYSQL, Wordpress, etc
+              HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, Bootstrap, SCSS, Node.js, Express.js, PHP, MySQL, PostgreSQL, Supabase, Firebase, MongoDB, TypeScript, Redux, Zustand, Git & GitHub, Docker, REST APIs, JWT Auth, WebSockets, Prisma, TypeORM, NestJS, Vite, WordPress, Responsive Design, UI/UX Principles, Agile Development
             </p>
           </Description>
           <Description>
