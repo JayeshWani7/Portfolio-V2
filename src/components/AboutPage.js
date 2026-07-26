@@ -1,8 +1,8 @@
 import React from "react";
-import styled, { keyframes, ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import { DarkTheme } from "./Themes";
 import { FaLinkedinIn } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import ParticleComponent from "../subComponents/ParticleComponent";
@@ -24,12 +24,6 @@ const Contact = styled.a`
   right: calc(4rem + 2vw);
   text-decoration: none;
   z-index: 1;
-`;
-const float = keyframes`
-0% { transform: translateY(-10px) }
-50% { transform: translateY(15px) translateX(15px) }
-100% { transform: translateY(-10px) }
-
 `;
 const Spaceman = styled.div`
   position: absolute;

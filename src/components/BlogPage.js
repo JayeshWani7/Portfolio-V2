@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 // import img from "../assets/Images/Profile.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
@@ -10,7 +10,7 @@ import BlogComponent from './BlogComponent'
 // import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
 import { FaLinkedinIn } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Contact = styled.a`
   color: ${(props) => props.theme.text};
@@ -72,15 +72,6 @@ const container = {
   }
 
 const BlogPage = () => {
-
-    const [numbers, setNumbers] = useState(0);
-
-    useEffect(() => {
-        let num = (window.innerHeight - 70)/30;
-        setNumbers(parseInt(num));
-    }, [])
-
-
     return (
         <MainContainer
         variants={container}

@@ -79,17 +79,6 @@ ${Box}:hover &{
 }
 `
 
-const Git = styled.a`
-color: inherit;
-text-decoration: none;
-${Box}:hover &{
-    &>*{
-        fill:${props =>props.theme.text};
-    }
-}
-
-`
-
 // Framer motion configuration
 const Item = {
     hidden:{
@@ -106,7 +95,7 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github} = props.data;
+    const {id, name, description, tags, demo} = props.data;
 
     return (
         <Box key={id} variants={Item}>

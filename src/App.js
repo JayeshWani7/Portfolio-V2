@@ -12,7 +12,6 @@ import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 // import SoundBar from "./subComponents/SoundBar";
 import Experience from "./components/Experience";
-import Achievement from "./components/Achievements";
 
 function App() {
   const location = useLocation();
