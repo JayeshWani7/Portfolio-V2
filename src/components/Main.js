@@ -115,7 +115,7 @@ const EXPERIENCE = styled(NavLink)`
   position: fixed;
   left: 62rem;
   top: 2rem;
-  z-index: 1;
+  z-index: 3;
   @media (max-width: 1300px) {
     display: none;
   }

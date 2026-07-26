@@ -101,13 +101,13 @@ const AboutPage = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          Hello, I'm Jayesh Wani, a passionate Competitive Programmer and Full Stack Developer. 
+          Hello, I'm Jayesh Wani, a Computer Engineering graduate, Competitive Programmer, and Full Stack Developer. 
           <br /> <br />
-          With a proven track record of solving over 400 problems across various coding platforms, I have honed my problem-solving skills. I also have hands-on experience developing numerous Frontend and Full Stack Projects.
+          I have hands-on experience building and shipping production features across fintech (Edviron) and AI platforms (Flock AI). With 400+ problems solved across coding platforms, I specialize in building robust backend systems, APIs, and scalable web apps.
           <br /> <br />
-          I believe that dedication and a systematic approach are key to success; the results will naturally follow from our hard work.
+          I believe that dedication and a systematic approach are key to engineering excellence.
           <br /> <br /> 
-          Let's connect on LinkedIn and support each other's growth!
+          Let's connect on LinkedIn and build impactful software together!
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
